@@ -1,0 +1,22 @@
+
+[config-begin]
+
+    Outputdir  = output
+    Outputfile = outputfile.root
+    Lumi       = 3000000
+    
+    Testmode   = false
+
+    Maxchilds  = 10
+    
+    Samplesdir = REMOTEDIRECTORY
+
+[config-end]
+
+
+[inputfiles-begin]
+
+ FILETORUNOVER, PROCESSNAME, 630, 3668.0, auto, 1
+
+[inputfiles-end]
+
